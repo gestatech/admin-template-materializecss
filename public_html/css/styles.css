@@ -1,0 +1,53 @@
+/* 
+    Created on : 27/07/2017, 04:55:11 PM
+    Author     : MiguelRom
+*/
+header, main, footer {
+    padding-left: 140px;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+.content-wrapper{
+    padding-left: 170px;
+    padding-right: 20px;    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-wrapper{
+    z-index: 1;    
+}
+
+ul#slide-out{
+    margin-top: 65px;
+}
+
+ul#slide-out li{
+    padding: 0.5em;    
+    display: block;  
+    line-height: 24px;
+}
+
+ul#slide-out li a {
+    color:#696969;
+    display:inline-block;
+    font-weight:bold;
+    line-height:2.8;
+    text-decoration:none;
+    width:100%;
+    height: 100%;
+    margin: auto 0;
+}
+
+ul#slide-out li:hover{
+    color: red;
+    background: #fff4d5;
+}
+
+ul#slide-out li a span{
+    padding: 0 0.5em 0.5em;
+}
